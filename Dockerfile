@@ -6,7 +6,7 @@
 #    By: hyospark <hyospark@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/03 23:53:57 by hyospark          #+#    #+#              #
-#    Updated: 2021/03/23 00:29:48 by hyospark         ###   ########.fr        #
+#    Updated: 2021/03/23 02:13:19 by hyospark         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ FROM debian:buster
 
 RUN apt-get update && upgrade
 RUN apt-get -y install nginx curl wget vim
-RUN apt-get -y install php7.3-fpm php7.3-common php7.3-mysql php7.3-gmp php7.3-curl
+RUN apt-get -y install php7.3-fpm php7.3-mysql
 RUN apt-get -y install mariadb-server
 RUN apt-get -y install openssl
 
