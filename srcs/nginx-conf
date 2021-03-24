@@ -17,7 +17,9 @@ server {
 	root /var/www/html;
 
 	# Auto index
-	index index.html index.htm index.nginx-debian.html index.php;
+	index index.htm index.html index.php index.nginx-debian.html;
+
+	server_name ft_server;
 
 	location / {
 		autoindex on;
@@ -27,6 +29,6 @@ server {
 	# PHP 추가
 	location ~ \.php$ {
 		include snippets/fastcgi-php.conf;
-		fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+		fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
 	}
 }
