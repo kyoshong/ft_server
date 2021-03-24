@@ -33,7 +33,6 @@ mv phpmyadmin /var/www/html/
 rm phpMyAdmin-5.0.2-all-languages.tar.gz
 cp -rp /tmp/phpmyadmin.inc.php /var/www/html/phpmyadmin/config.inc.php
 
-
 # phpmyadmin 데이타베이스 생성
 #mysql -u root --skip-password < var/www/html/phpmyadmin/sql/create_tables.sql
 
