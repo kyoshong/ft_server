@@ -17,7 +17,7 @@ server {
 	root /var/www/html;
 
 	# Auto index
-	index index.htm index.html index.php #index.nginx-debian.html;
+	index index.htm index.html index.php index.nginx-debian.html;
 
 	server_name ft_server;
 
