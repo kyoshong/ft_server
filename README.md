@@ -1,4 +1,4 @@
-# 🐳ft_server
+# 🐳 ft_server
 
 ### [ft_server ?](https://hyos-inside.tistory.com/entry/42Seoul-ftserver)  
 
